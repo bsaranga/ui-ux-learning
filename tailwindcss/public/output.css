@@ -640,7 +640,100 @@ video {
   margin-right: auto;
 }
 
+.flex {
+  display: flex;
+}
+
+.w-auto {
+  width: auto;
+}
+
+.w-max {
+  width: -webkit-max-content;
+  width: max-content;
+}
+
+.w-min {
+  width: -webkit-min-content;
+  width: min-content;
+}
+
+.w-fit {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.min-w-max {
+  min-width: -webkit-max-content;
+  min-width: max-content;
+}
+
+.max-w-fit {
+  max-width: -webkit-fit-content;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+}
+
+.max-w-max {
+  max-width: -webkit-max-content;
+  max-width: max-content;
+}
+
+.basis-6 {
+  flex-basis: 1.5rem;
+}
+
+.basis-1 {
+  flex-basis: 0.25rem;
+}
+
+.basis-16 {
+  flex-basis: 4rem;
+}
+
+.basis-10 {
+  flex-basis: 2.5rem;
+}
+
+.basis-36 {
+  flex-basis: 9rem;
+}
+
+.basis-5 {
+  flex-basis: 1.25rem;
+}
+
+.basis-20 {
+  flex-basis: 5rem;
+}
+
+.basis-3\/4 {
+  flex-basis: 75%;
+}
+
+.basis-2\/5 {
+  flex-basis: 40%;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.p-2 {
+  padding: 0.5rem;
+}
+
+.p-1 {
+  padding: 0.25rem;
+}
+
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
+}
+
+.first-letter\:mx-auto::first-letter {
+  margin-left: auto;
+  margin-right: auto;
 }
