@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .debug {
+      @apply border-[2px] rounded-sm border-red-500 sm:border-blue-500 md:border-purple-500 lg:border-green-700 xl:border-yellow-600 2xl:border-emerald-700;
+    }
+  }
