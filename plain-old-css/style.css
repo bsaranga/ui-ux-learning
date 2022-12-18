@@ -1,7 +1,15 @@
-p {
-    width: 150px;
-    height: min-content;
-    padding: 12px;
-    border: 1px solid;
-    border-radius: 5px;
+.debug {
+    outline: 1px solid black;
+}
+
+.divsection {
+    height: fit-content;
+}
+
+.divsection + .divsection {
+    margin-top: 5px;
+}
+
+.footer {
+    bottom: 5px;
 }
