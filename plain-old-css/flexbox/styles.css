@@ -1,0 +1,100 @@
+.debug {
+    outline: 1.5px solid rgb(243, 15, 15);
+    border-radius: 2px;
+}
+
+/*
+Define some global variables
+*/
+:root {
+    --vertical-margin: 2px;
+    --horizontal-margin: 3px;
+    --default-padding: 2px;
+    --flex-grow-mult: 5;
+}
+
+/*
+Html and Body elements must be set to a 100% and the vertical margins
+must be subtracted.
+*/
+html, body {
+    height: calc(100% - var(--vertical-margin) - calc(var(--default-padding) / 2));
+}
+
+/*
+Div container
+*/
+.container {
+    height: inherit;
+    margin-top: var(--vertical-margin);
+    margin-bottom: var(--vertical-margin);
+    margin-left: var(--horizontal-margin);
+    margin-right: var(--horizontal-margin);
+    padding: var(--default-padding);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer {
+    height: 2rem;
+}
+
+.flex-container {
+    display: flex;
+    gap: 1px;
+    width: 50%;
+}
+
+.order-1 {
+    order: 1;
+}
+
+.order-2 {
+    order: 2;
+}
+
+.order-3 {
+    order: 3;
+}
+
+.order-4 {
+    order: 4;
+}
+
+.order-5 {
+    order: 5;
+}
+
+.grow-1 {
+    flex-grow: 1;
+}
+
+.grow-2 {
+    flex-grow: 2;
+}
+
+.grow-3 {
+    flex-grow: 3;
+}
+
+.grow-4 {
+    flex-grow: 4;
+}
+
+.grow-5 {
+    flex-grow: 5;
+}
+
+.grow-10 {
+    flex-grow: 10;
+}
+
+.flex-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2rem;
+    outline: 1px solid rgb(43, 98, 171);
+}
